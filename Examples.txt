@@ -1,0 +1,27 @@
+Example 1: Fetch and Email User Data
+Start when triggered manually.
+Fetch user data from https://randomuser.me/api/.
+Extract the user's email and name.
+Send an email to the user with a welcome message.
+
+Example 2: Weather Notification
+Start every morning at 8am.
+Fetch weather data for New York City from a weather API.
+If the temperature is below 10°C, send a Slack message to #alerts channel: "It's cold today!".
+
+Example 3: GitHub Issue Reporter
+Start with a webhook.
+When a new bug report is submitted, create an issue in a GitHub repository.
+Send a confirmation email to the reporter.
+
+Example 4: CSV File Processor
+Start when a file is uploaded to Google Drive.
+Read the uploaded CSV file.
+For each row, add a new contact to HubSpot.
+Send a summary email to the admin.
+
+Example 5: Twitter to Discord Alert
+Start every hour.
+Search Twitter for the hashtag #n8n.
+If there are new tweets, send them as messages to a Discord channel.
+
